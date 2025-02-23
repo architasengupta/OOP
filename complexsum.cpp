@@ -35,16 +35,13 @@ inline Complex Complex::add(Complex c)
 	Complex t;
 	t.real=real+c.real;
 	t.imag=imag+c.imag;
-	return t;
-	
-	
+	return t;	
 }
 
 inline void Complex::Display()
 {
 	cout<<"The sum is: ";
 	cout<<real<<"+"<<imag<<"i";
-	
 }
 
 int main()
